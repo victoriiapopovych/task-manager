@@ -21,7 +21,7 @@ class TaskManager:
         print("--Task was added successfully--")
 
     def show_all_tasks(self):
-        print("\n---- TASKS LIST ----")
+        print("\n==== TASKS LIST ====")
         if not self.tasks:
             print("--No tasks found--")
         else:
