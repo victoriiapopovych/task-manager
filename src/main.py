@@ -13,7 +13,7 @@ def main():
         
         choice = input("-- Choose an option: --")
         if choice == "1":
-            manager.show_tasks()
+            manager.show_all_tasks()
 
         elif choice == "2":
             title = input("-- Enter task title: --")
